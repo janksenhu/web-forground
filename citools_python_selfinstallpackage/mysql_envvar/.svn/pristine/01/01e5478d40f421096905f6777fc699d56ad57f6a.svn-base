@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mysqlenvvar
+Version: 0.1.0
+Summary: use this package to connect to the mysql , and get the environment value
+Home-page: http://code.google.com/p/hudson-bld/
+Author: janksenhu
+Author-email: janksenhu@tencent.com
+License: GPL
+Description: use this package to connect to the mysql , and get the environment value,then in the hudson steps could use this value
+Keywords: mysqlenvvar,egg
+Platform: Independant

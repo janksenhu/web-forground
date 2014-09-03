@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: citools
+Version: 0.1.1
+Summary: use this package to set get install package path , and get the environment value
+Home-page: UNKNOWN
+Author: janksenhu
+Author-email: janksenhu@tencent.com
+License: GPL
+Description: use this package to connect to set get install package path , and get the environment value,then in the hudson steps could use this value
+Keywords: citools,egg
+Platform: Independant

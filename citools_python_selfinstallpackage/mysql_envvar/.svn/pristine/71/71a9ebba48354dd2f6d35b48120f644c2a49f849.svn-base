@@ -1,0 +1,9 @@
+setup.py
+Mysqlenvvar.egg-info/SOURCES.txt
+mysqlenvvar.egg-info/PKG-INFO
+mysqlenvvar.egg-info/SOURCES.txt
+mysqlenvvar.egg-info/dependency_links.txt
+mysqlenvvar.egg-info/not-zip-safe
+mysqlenvvar.egg-info/top_level.txt
+test/test-getEnvDic.py
+test/test-setEnvDic.py

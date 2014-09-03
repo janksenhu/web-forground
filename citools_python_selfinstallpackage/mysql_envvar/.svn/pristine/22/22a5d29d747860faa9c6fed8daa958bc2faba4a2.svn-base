@@ -1,0 +1,25 @@
+1、这个包是持续集成平台创建集成任务的时候的一个扩展的包，主要的功能是从db中拉去
+当前集成任务编译的时候使用到的环境变量，以及使用完了存入db的操作
+
+2、从db中拉去环境变量我们使用到了方案是：
+                                master
+                                /  |  \
+                               /   |   \
+                              /    |    \
+                           slave  slave  slave
+                            \       |     /
+                                    DB
+slave中直接操纵db，当然还有一种方式是通过url，cgi的方式获取，即就是slave中通过url请求一个
+网站cgi，cgi操作db，返回环境变量值给slave。采用了第一种方式，虽然部署复杂，维护多，但是slave
+直接跟db交互，各自独立操作，互不影响，一个编译机编译环境slave的环境不可用，不影响其他的编译环境
+运转，如果采用cgi，当cgi出现问题，所有的slave都获取不到环境变量值
+
+3、扩展功能：
+    我们只需要创建应用module，然后拷贝到build/lib目录地下运行命令：这个需要python环境中安装有setuptool
+    pytho setup.py bdist_egg
+
+4、应用：
+    直接运行：
+    python setup.py install
+
+

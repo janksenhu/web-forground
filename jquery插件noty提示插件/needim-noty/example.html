@@ -1,0 +1,26 @@
+在jquery的js代码中添加：
+
+noty({"text":"添加产品成功","layout":"center","type":"success","animateOpen":{"height":"toggle"},"animateClose":{"height":"toggle"},"speed":500,"timeout":3000,"closeButton":false,"closeOnSelfClick":true,"closeOnSelfOver":false,"modal":false});
+
+官方网站是：
+http://needim.github.com/noty/ 
+
+
+confirm代码
+ noty({"text":"你确定删除吗?","layout":"center","type":"confirm","speed":"500",type:'noty_bar noty_theme_default noty_layout_center noty_alert',
+    buttons: [
+      {type: 'btn btn-mini btn-primary', text: '确定', click: function($noty) {
+
+          //$noty.close();
+          noty({force: true, text: 'You clicked "Ok" button', type: 'success'});
+        }
+      },
+      {type: 'btn btn-mini btn-danger', text: '取消', click: function($noty) {
+          //$noty.close();
+          noty({force: true, text: 'You clicked "Cancel" button', type: 'error'});
+        }
+      }
+    ],
+    closable: false,//不显示关闭图标
+    timeout: false//不自动关闭
+    });

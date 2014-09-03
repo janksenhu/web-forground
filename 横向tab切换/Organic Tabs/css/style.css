@@ -1,0 +1,38 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+	 Download by http://www.codefans.net
+*/
+
+* { margin: 0; padding: 0; }
+body { font: 12px Georgia, serif; }
+html { overflow-y: scroll; }
+a { text-decoration: none; } /*连接无下划线*/
+p { font-size: 15px; margin: 0 0 15px 0; }
+#page-wrap { width: 440px; margin: 20px auto; }/*宽度*/
+
+ul { list-style: none; }
+ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+ul li a:hover { background: #fe4902; color: white; }
+ul li:last-child a { border: none; }
+
+#organic-tabs { background: #eee; padding: 10px; margin: 0 0 15px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }/*整个层的背景颜色*/
+
+#explore-nav { overflow: hidden; margin: 0 0 10px 0; }/*tab所在层的样式*/
+
+#explore-nav li { width: 97px; float: left; margin: 0 2px 0 0; }/*设置tabs的距离*/
+
+#explore-nav li.last { margin-right: 0; }
+
+#explore-nav li a { display: block; padding: 5px; background: #959290; color: white; font-size: 10px; text-align: center; border: 0; }/*没有选择的背景色*/
+
+#explore-nav li a:hover { background-color: blue; }/*悬浮的颜色*/
+
+#jquerytuts, #core, #classics { display: none; }/*刷新首次其他tab影藏内容*/
+
+#explore-nav li#ex-featured a.current, ul#featured li a:hover { background-color: #fe4902; color: white; }/*点击之后红*/
+#explore-nav li#ex-core a.current, ul#core li a:hover { background-color: #fe4902; color: white; } 
+#explore-nav li#ex-jquery a.current, ul#jquerytuts li a:hover { background-color: #fe4902; color: white; }
+#explore-nav li#ex-classics a.current, ul#classics li a:hover { background-color: #fe4902; color: white; }
+

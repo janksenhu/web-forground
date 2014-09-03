@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+.body_div{
+	width:920px;
+	color: black;
+	margin:5px auto;
+	border:1px;
+    font-size: 12px;
+}
+
+.select_box{
+	border-style:solid;
+	border-width:1px;
+	width:442px;
+	height:400px;
+}
+
+.source_box_head{
+	width:442px;
+	height:25px;
+	border-width:1px;
+    background:url("../selectbox_img/nav-bg.gif");
+}
+
+.source_data_body{
+    width:442px;
+    height:300px;
+}
+
+.des_box_head{
+	width:442px;
+	height:25px;
+	border-width:1px;
+    background:url("../selectbox_img/default-bg.gif");
+}
+
+.des_data_body{
+    width:442px;
+    height:300px;
+}
+
+.search_img{
+    border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+    background:url("../selectbox_img/search.png") left center no-repeat;
+    width:16px;
+	height:16px
+}
+
+
+.select_box_input{
+	border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	width:16px;
+	height:16px
+}
+
+.right_arrow_input{
+    border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	width:16px;
+	height:16px;
+    background:url("../selectbox_img/right.png")
+}
+
+.left_arrow_input{
+    border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	width:16px;
+	height:16px;
+    background:url("../selectbox_img/left.png");
+}
+
+.up_box_input{
+    border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	width:16px;
+	height:16px;
+    background:url("../selectbox_img/up.png");
+}
+
+.down_box_input{
+    border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	width:16px;
+	height:16px;
+    background:url("../selectbox_img/down.png");
+}
+
+.all_cancle_box_input{
+    border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	width:16px;
+	height:16px;
+    background:url("../selectbox_img/allcansle.png");
+}
+
+.all_chose_box_input{
+    border:0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	width:16px;
+	height:16px;
+    background:url("../selectbox_img/allselect.png");
+}
+
+.select_search_text{
+    margin-top:8px;
+    margin-bottom:8px;
+    width:370px;
+}

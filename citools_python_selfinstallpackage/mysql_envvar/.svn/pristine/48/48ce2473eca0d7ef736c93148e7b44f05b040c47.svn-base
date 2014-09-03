@@ -1,0 +1,8 @@
+setup.py
+citools.egg-info/PKG-INFO
+citools.egg-info/SOURCES.txt
+citools.egg-info/dependency_links.txt
+citools.egg-info/not-zip-safe
+citools.egg-info/top_level.txt
+test/test-getEnvDic.py
+test/test-setEnvDic.py
